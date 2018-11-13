@@ -6,19 +6,46 @@
     <description>Recent content in R on Khoa học dữ liệu với R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mở đầu về khoa học dữ liệu. Các khái niệm cơ bản</title>
-      <link>/post/introduction-datascience/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      <title>Hệ sinh thái tidyverse cho data science với R</title>
+      <link>/post/tidyverse/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
-      <guid>/post/introduction-datascience/</guid>
-      <description>Khoa học dữ liệu là gì? Khoa học dữ liệu (data science) là một trong những ngành đang có nhu cầu tuyển dụng cao ở thời điểm hiện tại cũng như trong tương lai xa. Nhà khoa học dữ liệu (Data Scientist) được Harvard Business Review đánh giá là “công việc hấp dẫn nhất thế kỷ 21”.
-Vậy khoa học dữ liệu là gì? Trong thực tế không một ai có thể xác định chính xác khoa học dữ liệu là gì, nói cách khác một định nghĩa chính xác về khoa học dữ liệu không tồn tại - đây là một khái niệm liên ngành và rất rộng.</description>
+      <guid>/post/tidyverse/</guid>
+      <description>Hệ sinh thái tidyverse (hay còn gọi là Hadleyverse) là một tổ hợp công cụ lớn chứa nhiều packages chuyên dụng khác nhau giúp chúng ta triển khai một chu trình phân tích dữ liệu hoàn chỉnh, từ khâu nhập dữ liệu vào (readr, readxl), định hình (tibble) làm sạc và biến đổi dữ liệu (tidyr, dplyr, …) đến khâu thăm dò và trực quan hóa dữ liệu (ggplot2). Package tidyverse được tạo ra bởi Hadley Wickham - Một nhà khoa học rất nổi tiểng trong làng R, giáo sư thống kê tại 3 trường: University of Auckland, Stanford University, và Rice University.</description>
+    </item>
+    
+    <item>
+      <title>Load machine learning datasets trong R</title>
+      <link>/post/load-data/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/load-data/</guid>
+      <description>Dữ liệu là nguyên liệu vô cung quan trọng giúp chúng ta thực hành và thử nghiệm các mô hình cũng như làm data science. Ở post này các bạn sẽ được làm quen với các cách load dữ liệu từ các files txt, csv, Excel (xls, xlsx) cơ bản vào môi trường R.
+Hầu hết dữ liệu cho machine learning ở dạng csv (comma separated value). CSV - là một loại định dạng văn bản đơn giản mà trong đó, các giá trị được ngăn cách với nhau bằng dấu phẩy.</description>
+    </item>
+    
+    <item>
+      <title>Machine Learning và một số Machine Learning Datasets trên R</title>
+      <link>/post/ml-r/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/ml-r/</guid>
+      <description>Ở chương này tôi sẽ hướng dẫn các bạn từng bước áp dụng machine learning với R. Sau khi kết thúc chương này bạn sẽ có thể sử dụng và trở thành một chuyên gia về machine learning cho mô hình dự đoán (predictive modeling) trên nền tảng R. Chương này sẽ tập trung vào một trường cụ thể của máy học là predictive modeling. Đây là lĩnh vực hữu ích nhất trong công nghiệp và là một dạng của máy học.</description>
+    </item>
+    
+    <item>
+      <title>R và Machine Learning</title>
+      <link>/post/r-machinelearning/</link>
+      <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-machinelearning/</guid>
+      <description>R là một trong những platforms mạnh nhất để triển khai các mô hình machine learning hiện nay, và được sử dụng bới các nhà khoa học dữ liệu hàng đầu trên thế gới. Hàng năm, số lượng người dùng R tăng hơn 40% và ngày càng có nhiều cơ quan và tổ chức sử dụng R trong hoạt động phân tích thường nhật.Ở post này bạn sẽ được giới thiệu về R và biết tại sao nên sử dụng R cho machine learning.</description>
     </item>
     
   </channel>

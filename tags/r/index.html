@@ -12,7 +12,7 @@
 <meta property="og:description" content="John Doe&#39;s Personal blog about everything" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="/tags/r/" />
-<meta property="og:updated_time" content="2018-11-10T00:00:00&#43;00:00"/>
+<meta property="og:updated_time" content="2018-11-13T00:00:00&#43;00:00"/>
 
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -54,7 +54,7 @@ if (!doNotTrack) {
 			<a class="menu__link" href="/post/">Home</a>
 		</li>
 		<li class="menu__item">
-			<a class="menu__link" href="/tutorials/">Tutorials</a>
+			<a class="menu__link" href="/post/tutorials/">Tutorials</a>
 		</li>
 		<li class="menu__item">
 			<a class="menu__link" href="/about/">Bản thân</a>
@@ -71,27 +71,103 @@ if (!doNotTrack) {
 	<header class="main__header">
 		<h1 class="main__title">R</h1>
 	</header><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/post/tidyverse/">
+			<img src="/img/tidyverse.jpg" alt="Hệ sinh thái tidyverse cho data science với R" />
+		</a>
+	</figure>
 	<header class="list__header">
 		<h3 class="list__title post__title ">
-			<a href="/post/introduction-datascience/" rel="bookmark">
-			Mở đầu về khoa học dữ liệu. Các khái niệm cơ bản
+			<a href="/post/tidyverse/" rel="bookmark">
+			Hệ sinh thái tidyverse cho data science với R
 			</a>
 		</h3>
 		<div class="list__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-	<time class="meta__text" datetime="2018-11-10T00:00:00">November 10, 2018</time>
+	<time class="meta__text" datetime="2018-11-13T00:00:00">November 13, 2018</time>
 </div>
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/data-science" rel="category">data-science</a></span>
+	<span class="meta__text"><a class="meta__link" href="/categories/r" rel="category">R</a></span>
 </div>
 </div>
 	</header>
 	<div class="content list__excerpt post__content clearfix">
-		Khoa học dữ liệu là gì? Khoa học dữ liệu (data science) là một trong những ngành đang có nhu cầu tuyển dụng cao ở thời điểm hiện tại cũng như trong tương lai xa. Nhà khoa học dữ liệu (Data Scientist) được Harvard Business Review đánh giá là “công việc hấp dẫn nhất thế kỷ 21”.
-Vậy khoa học dữ liệu là gì? Trong thực tế không một ai có thể xác định chính xác khoa học dữ liệu là gì, nói cách khác một định nghĩa chính xác về khoa học dữ liệu không tồn tại - đây là một khái niệm liên ngành và rất rộng.
+		Hệ sinh thái tidyverse (hay còn gọi là Hadleyverse) là một tổ hợp công cụ lớn chứa nhiều packages chuyên dụng khác nhau giúp chúng ta triển khai một chu trình phân tích dữ liệu hoàn chỉnh, từ khâu nhập dữ liệu vào (readr, readxl), định hình (tibble) làm sạc và biến đổi dữ liệu (tidyr, dplyr, …) đến khâu thăm dò và trực quan hóa dữ liệu (ggplot2). Package tidyverse được tạo ra bởi Hadley Wickham - Một nhà khoa học rất nổi tiểng trong làng R, giáo sư thống kê tại 3 trường: University of Auckland, Stanford University, và Rice University.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/load-data/" rel="bookmark">
+			Load machine learning datasets trong R
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+	<time class="meta__text" datetime="2018-11-13T00:00:00">November 13, 2018</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/r" rel="category">R</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Dữ liệu là nguyên liệu vô cung quan trọng giúp chúng ta thực hành và thử nghiệm các mô hình cũng như làm data science. Ở post này các bạn sẽ được làm quen với các cách load dữ liệu từ các files txt, csv, Excel (xls, xlsx) cơ bản vào môi trường R.
+Hầu hết dữ liệu cho machine learning ở dạng csv (comma separated value). CSV - là một loại định dạng văn bản đơn giản mà trong đó, các giá trị được ngăn cách với nhau bằng dấu phẩy.
+	</div>
+</article><article class="list__item post">
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/ml-r/" rel="bookmark">
+			Machine Learning và một số Machine Learning Datasets trên R
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+	<time class="meta__text" datetime="2018-11-13T00:00:00">November 13, 2018</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/r" rel="category">R</a>, <a class="meta__link" href="/categories/machine-learning" rel="category">Machine Learning</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		Ở chương này tôi sẽ hướng dẫn các bạn từng bước áp dụng machine learning với R. Sau khi kết thúc chương này bạn sẽ có thể sử dụng và trở thành một chuyên gia về machine learning cho mô hình dự đoán (predictive modeling) trên nền tảng R. Chương này sẽ tập trung vào một trường cụ thể của máy học là predictive modeling. Đây là lĩnh vực hữu ích nhất trong công nghiệp và là một dạng của máy học.
+	</div>
+</article><article class="list__item post">
+	<figure class="list__thumbnail">
+		<a href="/post/r-machinelearning/">
+			<img src="/img/Rml.png" alt="R và Machine Learning" />
+		</a>
+	</figure>
+	<header class="list__header">
+		<h3 class="list__title post__title ">
+			<a href="/post/r-machinelearning/" rel="bookmark">
+			R và Machine Learning
+			</a>
+		</h3>
+		<div class="list__meta meta">
+<div class="meta__item-datetime meta__item">
+	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
+	<time class="meta__text" datetime="2018-11-13T00:00:00">November 13, 2018</time>
+</div>
+
+<div class="meta__item-categories meta__item">
+	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
+	<span class="meta__text"><a class="meta__link" href="/categories/r" rel="category">R</a></span>
+</div>
+</div>
+	</header>
+	<div class="content list__excerpt post__content clearfix">
+		R là một trong những platforms mạnh nhất để triển khai các mô hình machine learning hiện nay, và được sử dụng bới các nhà khoa học dữ liệu hàng đầu trên thế gới. Hàng năm, số lượng người dùng R tăng hơn 40% và ngày càng có nhiều cơ quan và tổ chức sử dụng R trong hoạt động phân tích thường nhật.Ở post này bạn sẽ được giới thiệu về R và biết tại sao nên sử dụng R cho machine learning.
 	</div>
 </article>
 </main>
@@ -112,10 +188,11 @@ Vậy khoa học dữ liệu là gì? Trong thực tế không một ai 
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
-			<li class="widget__item"><a class="widget__link" href="/post/introduction-datascience/">Mở đầu về khoa học dữ liệu. Các khái niệm cơ bản</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/basic-elements/">Basic HTML Elements</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2015-07-23-r-rmarkdown/">Hello R Markdown</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/example/">Example</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/tidyverse/">Hệ sinh thái tidyverse cho data science với R</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/load-data/">Load machine learning datasets trong R</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/ml-r/">Machine Learning và một số Machine Learning Datasets trên R</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/r-machinelearning/">R và Machine Learning</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2015-07-23-r-rmarkdown/">Giới thiệu về R Markdown</a></li>
 		</ul>
 	</div>
 </div>
@@ -125,7 +202,7 @@ Vậy khoa học dữ liệu là gì? Trong thực tế không một ai 
 		<ul class="widget__list">
 			<li class="widget__item"><a class="widget__link" href="/categories/data-science">Data science</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/development">Development</a></li>
-			<li class="widget__item"><a class="widget__link" href="/categories/golang">Golang</a></li>
+			<li class="widget__item"><a class="widget__link" href="/categories/machine-learning">Machine learning</a></li>
 			<li class="widget__item"><a class="widget__link" href="/categories/r">R</a></li>
 		</ul>
 	</div>
@@ -135,10 +212,10 @@ Vậy khoa học dữ liệu là gì? Trong thực tế không một ai 
 	<div class="widget__content">
 		<a class="widget-taglist__link widget__link btn" href="/tags/basic-elements" title="Basic elements">Basic elements</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/css" title="Css">Css</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/data-science" title="Data science">Data science</a>
+		<a class="widget-taglist__link widget__link btn" href="/tags/datasets" title="Datasets">Datasets</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/deep-learning" title="Deep learning">Deep learning</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/development" title="Development">Development</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/go" title="Go">Go</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/golang" title="Golang">Golang</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/html" title="Html">Html</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/java" title="Java">Java</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/machine-learning" title="Machine learning">Machine learning</a>
@@ -147,8 +224,6 @@ Vậy khoa học dữ liệu là gì? Trong thực tế không một ai 
 		<a class="widget-taglist__link widget__link btn" href="/tags/r" title="R">R</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/r-markdown" title="R markdown">R markdown</a>
 		<a class="widget-taglist__link widget__link btn" href="/tags/regression" title="Regression">Regression</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/templates" title="Templates">Templates</a>
-		<a class="widget-taglist__link widget__link btn" href="/tags/themes" title="Themes">Themes</a>
 	</div>
 </div>
 </aside>
