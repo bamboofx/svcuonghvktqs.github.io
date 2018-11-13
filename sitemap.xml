@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>/post/ml-r/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/tidyverse/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
@@ -22,18 +27,8 @@
   </url>
   
   <url>
-    <loc>/post/ml-r/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/r-machinelearning/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>

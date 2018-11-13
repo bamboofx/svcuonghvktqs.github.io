@@ -4,12 +4,12 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Machine Learning và một số Machine Learning Datasets trên R</title>
+	<title>Giới thiệu một số Machine Learning Datasets trên R</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<meta name="generator" content="Hugo 0.50" />
-	<meta property="og:title" content="Machine Learning và một số Machine Learning Datasets trên R" />
-<meta property="og:description" content="Ở chương này tôi sẽ hướng dẫn các bạn từng bước áp dụng machine learning với R. Sau khi kết thúc chương này bạn sẽ có thể sử dụng và trở thành một chuyên gia về machine learning cho mô hình dự đoán (predictive modeling) trên nền tảng R. Chương này sẽ tập trung vào một trường cụ thể của máy học là predictive modeling. Đây là lĩnh vực hữu ích nhất trong công nghiệp và là một dạng của máy học." />
+	<meta property="og:title" content="Giới thiệu một số Machine Learning Datasets trên R" />
+<meta property="og:description" content="Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R. Datasets là nguyên liệu vô cùng quan trọng giúp chúng ta có thể test, thực hành và thử nghiệm với các machine learning techniques và phát triển kỹ năng của mình với platform. Ở mục này các bạn sẽ được giới thiệu các cách để load các standard datasets dành cho bài toán classification và regression trên R." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="/post/ml-r/" /><meta property="article:published_time" content="2018-11-13T00:00:00&#43;00:00"/>
 <meta property="article:modified_time" content="2018-11-13T00:00:00&#43;00:00"/>
@@ -69,7 +69,7 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Machine Learning và một số Machine Learning Datasets trên R</h1>
+			<h1 class="post__title">Giới thiệu một số Machine Learning Datasets trên R</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
@@ -84,47 +84,7 @@ if (!doNotTrack) {
 		</header><div class="content post__content clearfix">
 			
 
-<p>Ở chương này tôi sẽ hướng dẫn các bạn từng bước áp dụng machine learning
-với R. Sau khi kết thúc chương này bạn sẽ có thể sử dụng và trở thành
-một chuyên gia về machine learning cho mô hình dự đoán (predictive
-modeling) trên nền tảng R. Chương này sẽ tập trung vào một trường cụ thể
-của máy học là <strong>predictive modeling</strong>. Đây là lĩnh vực hữu ích nhất
-trong công nghiệp và là một dạng của máy học. Không giống như trong
-thống kê, mô hình được sử dụng để hiểu dữ liệu, predictive modeling tập
-trung vào phát triển models để có thể dự đoán một cách chính xác nhất
-bằng cách giải thích tại sao dự đoán được thực hiện. Không giống như một
-số lĩnh vực rộng lớn của máy học mà có thể sử dụng data ở bất kỳ định
-dạng nào, predictive modeling chủ yếu tập trung trên bảng dữ liệu
-(tabular data)</p>
-
-<p>Mô hình dự đoán máy học có thể được chia thành 6 cấp nhiệm vụ sau:</p>
-
-<ol>
-<li><p>Xác định vấn đề (define problem): Nghiên cứu và đặc trưng hóa
-    vấn đề để hiểu rõ hơn mục đích của project</p></li>
-
-<li><p>Phân tích dữ liệu (analyze data): Sử dụng phân tích mô tả
-    (descriptive statistics) và trực quan hóa dữ liệu
-    (visualization) để hiểu rõ hơn về dữ liệu mà bạn có.</p></li>
-
-<li><p>Chuẩn bị dữ liệu (prepare data): Biến đổi dữ liệu (data
-    transforms) để thể hiện rõ hơn cấu trúc (structure) bài toán dự
-    báo cho <strong>modeling algorithms</strong>.</p></li>
-
-<li><p>Đánh giá thuật toán (Evaluate algorithms): Thiết kế một sơ đồ
-    kiểm nghiệm để đánh giá một số <strong>standard algorithms</strong> trên dữ
-    liệu và từ đó chọn một vài thuật toán tốt nhất để tiếp tục khảo
-    sát.</p></li>
-
-<li><p>Cải thiện kết quả (improve results): Hiệu chỉnh thuật toán
-    (algorithm tuning) và <strong>ensemble methods</strong> để có thể thu được
-    kết quả tốt nhất từ những thuật toán tốt trên dữ liệu.</p></li>
-
-<li><p>Trình diễn kết quả (present result): Kết thúc model, sự báo và
-    trình diễn kết quả.</p></li>
-</ol>
-
-<h2 id="các-machine-learning-datasets-cơ-bản-trên-r">Các Machine Learning Datasets cơ bản trên R</h2>
+<h2 id="ở-post-na-y-tôi-sẽ-giơ-i-thiê-u-mô-t-sô-machine-learning-datasets-trên-r">Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R.</h2>
 
 <p>Datasets là <strong>nguyên liệu</strong> vô cùng quan trọng giúp chúng ta có thể
 test, thực hành và thử nghiệm với các machine learning techniques và
@@ -542,10 +502,7 @@ Bench+(Sonar,+Mines+vs.+Rocks).</li>
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/post/r-machinelearning/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">R và Machine Learning</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/post/load-data/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Load machine learning datasets trong R</p></a>
+		<a class="post-nav__link" href="/post/tidyverse/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Hệ sinh thái tidyverse cho data science với R</p></a>
 	</div>
 </nav>
 
@@ -587,11 +544,11 @@ Bench+(Sonar,+Mines+vs.+Rocks).</li>
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
 		<ul class="widget__list">
+			<li class="widget__item"><a class="widget__link" href="/post/ml-r/">Giới thiệu một số Machine Learning Datasets trên R</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/tidyverse/">Hệ sinh thái tidyverse cho data science với R</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/load-data/">Load machine learning datasets trong R</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/ml-r/">Machine Learning và một số Machine Learning Datasets trên R</a></li>
 			<li class="widget__item"><a class="widget__link" href="/post/r-machinelearning/">R và Machine Learning</a></li>
-			<li class="widget__item"><a class="widget__link" href="/post/2015-07-23-r-rmarkdown/">Giới thiệu về R Markdown</a></li>
+			<li class="widget__item"><a class="widget__link" href="/post/2018-11-12-r-rmarkdown/">Giới thiệu về R Markdown</a></li>
 		</ul>
 	</div>
 </div>
