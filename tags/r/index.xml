@@ -21,14 +21,5 @@
 Vậy khoa học dữ liệu là gì? Trong thực tế không một ai có thể xác định chính xác khoa học dữ liệu là gì, nói cách khác một định nghĩa chính xác về khoa học dữ liệu không tồn tại - đây là một khái niệm liên ngành và rất rộng.</description>
     </item>
     
-    <item>
-      <title>Cài đặt</title>
-      <link>/post/hugoisforlovers/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/post/hugoisforlovers/</guid>
-      <description> Step 1. Install R Step 2. Install R studio Step 3. Install Rtools Step 4. Install devtools Step 5. Install packages </description>
-    </item>
-    
   </channel>
 </rss>

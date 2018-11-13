@@ -48,15 +48,6 @@
     </item>
     
     <item>
-      <title>Devtools</title>
-      <link>/tags/devtools/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/devtools/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Go</title>
       <link>/tags/go/</link>
       <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
@@ -138,29 +129,11 @@
     </item>
     
     <item>
-      <title>R Studio</title>
-      <link>/tags/r-studio/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/r-studio/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Regression</title>
       <link>/tags/regression/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
       <guid>/tags/regression/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rtools</title>
-      <link>/tags/rtools/</link>
-      <pubDate>Wed, 02 Apr 2014 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rtools/</guid>
       <description></description>
     </item>
     
