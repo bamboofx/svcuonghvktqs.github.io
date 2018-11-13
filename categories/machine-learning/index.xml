@@ -17,7 +17,8 @@
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/ml-r/</guid>
-      <description>Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R. Datasets là nguyên liệu vô cùng quan trọng giúp chúng ta có thể test, thực hành và thử nghiệm với các machine learning techniques và phát triển kỹ năng của mình với platform. Ở mục này các bạn sẽ được giới thiệu các cách để load các standard datasets dành cho bài toán classification và regression trên R.</description>
+      <description>Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R.
+Datasets là nguyên liệu vô cùng quan trọng giúp chúng ta có thể test, thực hành và thử nghiệm với các machine learning techniques và phát triển kỹ năng của mình với platform. Ở mục này các bạn sẽ được giới thiệu các cách để load các standard datasets dành cho bài toán classification và regression trên R.</description>
     </item>
     
   </channel>

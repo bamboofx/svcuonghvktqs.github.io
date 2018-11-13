@@ -21,6 +21,18 @@
     </item>
     
     <item>
+      <title>Các dự án của tôi</title>
+      <link>/my-project/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/my-project/</guid>
+      <description>1. The Forvision project In the Forvision project we focus on the issues of the implementation of software elements for forecasting performance evaluation and visualization.
+In particular, we focus on the following two interrelated tasks:
+ to define simple yet flexible enough data structures in order to store all the information needed for forecasts evaluation (assuming the settings and requirements described here)
+ to develop a reliable methodology (including a set of appropriate tools) for forecasts exploratory analysis and accuracy evaluation based on the data structures defined.</description>
+    </item>
+    
+    <item>
       <title>Bản thân</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
@@ -37,7 +49,8 @@ Lĩnh vực nghiên cứu của tôi:
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/ml-r/</guid>
-      <description>Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R. Datasets là nguyên liệu vô cùng quan trọng giúp chúng ta có thể test, thực hành và thử nghiệm với các machine learning techniques và phát triển kỹ năng của mình với platform. Ở mục này các bạn sẽ được giới thiệu các cách để load các standard datasets dành cho bài toán classification và regression trên R.</description>
+      <description>Ở post này tôi sẽ giới thiệu một số Machine Learning Datasets trên R.
+Datasets là nguyên liệu vô cùng quan trọng giúp chúng ta có thể test, thực hành và thử nghiệm với các machine learning techniques và phát triển kỹ năng của mình với platform. Ở mục này các bạn sẽ được giới thiệu các cách để load các standard datasets dành cho bài toán classification và regression trên R.</description>
     </item>
     
     <item>
