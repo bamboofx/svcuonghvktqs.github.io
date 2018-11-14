@@ -12,25 +12,25 @@
     
     
     <item>
-      <title>Home</title>
+      <title>About</title>
+      <link>/about/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/about/</guid>
+      <description>Cảm ơn các bạn đã quan tâm đến blog của tôi!
+Tôi là Sái Văn Cường, hiện đang là nghiên cứu sinh chuyên ngành phân tích hệ thống, quản lý và xử lý thông tin tại trường đại học tổng hợp kỹ thuật quốc gia Volgograd (Volgograd state technical university), Liên Bang Nga.
+Học vấn của tôi:
+ 2009-2010: Học viện Kỹ thuật Quân Sự
+ 2010-2016: Học Viện Zhukovsky, LB Nga</description>
+    </item>
+    
+    <item>
+      <title>Posts</title>
       <link>/post/</link>
       <pubDate>Wed, 09 Apr 2014 00:00:00 +0000</pubDate>
       
       <guid>/post/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title>Bản thân</title>
-      <link>/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/about/</guid>
-      <description>Xin chào mọi người, tôi Sái Văn Cường, hiện đang là nghiên cứu sinh chuyên ngành phân tích hệ thống, quản lý và xử lý thông tin tại trường đại học tổng hợp kỹ thuật quốc gia Volgograd (Volgograd state technical university), Liên Bang Nga.
-Học vấn:
- 2009-2010: Học viện Kỹ thuật Quân Sự
- 2010-2016: Học Viện Zhukovsky, LB Nga
- 2016-nay: PhD studen of CAD Department, Volgograd State technical University, LB Nga</description>
     </item>
     
     <item>
@@ -145,7 +145,8 @@ In particular, we focus on the following two interrelated tasks:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/</guid>
-      <description>1. R    Description Notebook Source Code     1. R and RStudio installation Notebook (HTML) R Markdown (Rmd)   2. Data Wrangling Notebook (HTML) R Markdown (Rmd)   3. Data Visualization Notebook (HTML) R Markdown (Rmd)   4. Machine Learning Notebook (HTML) R Markdown (Rmd)   5. Deep Learning Notebook (HTML) R Markdown (Rmd)   6. Time series forecasting Notebook (HTML) R Markdown (Rmd)   7.</description>
+      <description>Page này hiện tại vẫn chưa được cập nhật (vì vậy toàn bộ đường dẫn phía dưới đều dẫn đến project đang thực hiện cảu tôi)
+1. R Data-Science    Description Notebook Source Code     1. R and RStudio installation Notebook (HTML) R Markdown (Rmd)   2. Data Wrangling Notebook (HTML) R Markdown (Rmd)   3. Data Visualization Notebook (HTML) R Markdown (Rmd)   4.</description>
     </item>
     
   </channel>
