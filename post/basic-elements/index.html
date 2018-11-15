@@ -439,14 +439,19 @@ Also you can <em>put</em> <strong>Markdown</strong> into a blockquote.</p>
 			</a>
 		</div>
 	</div>
-</div><div class="widget-search widget">
-	<form class="widget-search__form" role="search" method="get" action="https://google.com/search">
-		<label>
-			<input class="widget-search__field" type="search" placeholder="SEARCH..." value="" name="q" aria-label="SEARCH...">
-		</label>
-		<input class="widget-search__submit" type="submit" value="Search">
-		<input type="hidden" name="sitesearch" value="/" />
-	</form>
+</div><div id="newsletterbox">
+    <div class="white-border">
+    <div class="newsletterbox-wrap">
+    <h4>THEO DÕI BÀI VIẾT</h4>
+    <p>Hãy nhập mail của bạn để nhận được thông báo về những bài viết mới từ blog</p>
+    <form id="subscribe" onsubmit="window.open( 'http://feedburner.google.com/fb/a/mailverify?uri=KhoaHocDLiuViR', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow" method="post" action="http://feedburner.google.com/fb/a/mailverify">
+    <input id="subbox" type="email" name="email" onblur="if ( this.value == '' ) { this.value = 'Nhập mail của bạn...' } " onfocus=" if ( this.value == 'Enter your email address...') { this.value = '' }" value="Enter your email address..." />
+    <input type="hidden" value="KhoaHocDLiuViR" name="uri"/>
+    <input type="hidden" value="en_US" name="loc"/>
+    <input id="subbutton" type="submit" value="Theo dõi"/>
+    </form>
+    </div>
+    </div>
 </div>
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
