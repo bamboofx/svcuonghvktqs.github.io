@@ -12,12 +12,17 @@
   </url>
   
   <url>
+    <loc>/post/quan-ly-du-an-voi-rstudio/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/ml-r/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/tidyverse/</loc>
+    <loc>/post/he-sinh-thai-tidyverse/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
@@ -27,12 +32,12 @@
   </url>
   
   <url>
-    <loc>/post/r-machinelearning/</loc>
+    <loc>/post/r-va-machinelearning/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2018-11-12-r-rmarkdown/</loc>
+    <loc>/post/2018-11-12-gioi-thieu-r-rmarkdown/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
   </url>
   
@@ -42,7 +47,7 @@
   </url>
   
   <url>
-    <loc>/post/introduction-datascience/</loc>
+    <loc>/post/mo-dau-ve-datascience/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
@@ -85,7 +90,7 @@
   
   <url>
     <loc>/categories/data-science/</loc>
-    <lastmod>2018-11-11T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -151,7 +156,13 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/categories/project-management/</loc>
+    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
