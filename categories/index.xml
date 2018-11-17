@@ -38,6 +38,15 @@
     </item>
     
     <item>
+      <title>Pipes</title>
+      <link>/categories/pipes/</link>
+      <pubDate>Sat, 17 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/pipes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Project Management</title>
       <link>/categories/project-management/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
@@ -52,6 +61,15 @@
       <pubDate>Tue, 13 Nov 2018 00:00:00 +0000</pubDate>
       
       <guid>/categories/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rmarkdown</title>
+      <link>/categories/rmarkdown/</link>
+      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/categories/rmarkdown/</guid>
       <description></description>
     </item>
     

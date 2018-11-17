@@ -2,9 +2,7 @@
 title: "Giới thiệu về R Markdown"
 author: "Cuong Sai"
 date: 2018-11-12
-categories: ["R"]
-tags: ["R Markdown", "plot", "regression"]
-thumbnail: "img/rmarkdown/rmarkdown.png"
+categories: ["rmarkdown"]
 ---
 
 Nghiên cứu khoa học khả lặp - reproducible research đang là xu thế mới của giới khoa học và những package sẽ giúp người nghiên cứu khoa học hoàn toàn có thể viết báo cáo của mình bằng các mã nguồn R, tận dụng các thể mạnh tính toán data visualization của R, viết biểu thức toán với Latex và có thể tự động hoá quá trình.

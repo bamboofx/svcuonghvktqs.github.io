@@ -49,15 +49,5 @@ Hầu hết dữ liệu cho machine learning ở dạng csv (comma separated val
       <description>R là một trong những platforms mạnh nhất để triển khai các mô hình machine learning hiện nay, và được sử dụng bới các nhà khoa học dữ liệu hàng đầu trên thế gới. Hàng năm, số lượng người dùng R tăng hơn 40% và ngày càng có nhiều cơ quan và tổ chức sử dụng R trong hoạt động phân tích thường nhật.Ở post này bạn sẽ được giới thiệu về R và biết tại sao nên sử dụng R cho machine learning.</description>
     </item>
     
-    <item>
-      <title>Giới thiệu về R Markdown</title>
-      <link>/post/2018-11-12-gioi-thieu-r-rmarkdown/</link>
-      <pubDate>Mon, 12 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/2018-11-12-gioi-thieu-r-rmarkdown/</guid>
-      <description>Nghiên cứu khoa học khả lặp - reproducible research đang là xu thế mới của giới khoa học và những package sẽ giúp người nghiên cứu khoa học hoàn toàn có thể viết báo cáo của mình bằng các mã nguồn R, tận dụng các thể mạnh tính toán data visualization của R, viết biểu thức toán với Latex và có thể tự động hoá quá trình.
-Đây là văn bản R Markdown.</description>
-    </item>
-    
   </channel>
 </rss>

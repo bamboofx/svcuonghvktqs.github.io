@@ -12,6 +12,11 @@
   </url>
   
   <url>
+    <loc>/post/toan-tu-pipes-trong-r/</loc>
+    <lastmod>2018-11-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/quan-ly-du-an-voi-rstudio/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
   </url>
@@ -149,14 +154,14 @@
   </url>
   
   <url>
-    <loc>/tags/plot/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
+    <loc>/categories/pipes/</loc>
+    <lastmod>2018-11-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-11-17T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -185,13 +190,7 @@
   </url>
   
   <url>
-    <loc>/tags/r-markdown/</loc>
-    <lastmod>2018-11-12T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/regression/</loc>
+    <loc>/categories/rmarkdown/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
