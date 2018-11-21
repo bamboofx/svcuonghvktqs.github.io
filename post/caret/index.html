@@ -4,16 +4,15 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Khái niệm slice and dice trong khoa học dữ liệu</title>
+	<title>Caret - giao diện phổ quát cho phép truy cập các machine learning algorithms trên R</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="">
 	<meta name="generator" content="Hugo 0.50" />
-	<meta property="og:title" content="Khái niệm slice and dice trong khoa học dữ liệu" />
-<meta property="og:description" content="Slice có nghĩa là cắt lát, dice có nghĩa là rút ngắn. Vì vậy slice and dice là quá trình phân chia một khối dữ liệu thành các phần nhỏ hơn hoặc xem xét (nghiên cứu ) chúng tù những quan điểm, khía cạnh khác nhau để có thể hiểu nó rõ hơn.
-Ví dụ chúng ta có dữ liệu nhiều chiều (cube) (nếu dữ liệu có số chiều lớn hơn 3 thì nó được gọi là hypercube):" />
+	<meta property="og:title" content="Caret - giao diện phổ quát cho phép truy cập các machine learning algorithms trên R" />
+<meta property="og:description" content="Sử dụng các machine learning (hay statistical learning) algorithms ngày càng phổ biến trong nhiều lĩnh vực khác nhau - từ trong nghiên cứu cho đến các hoạt động kinh doanh. Ngôn ngữ R khác biệt bởi số lượng rất lớn các packages chuyên dụng khác nhau cho phép xây dựng các mô hình dự báo. Tuy nhiên đây cũng chính là khuyết điểm, khi có quá nhiều các packages triển khai các algorithms khác nhau dưới dạng các functions sẽ làm cho các nhà phân tích khó khăn trong việc nhớ những đặc trưng sử dụng và cú pháp của từng function." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="/post/slice-dice/" /><meta property="article:published_time" content="2018-11-11T00:00:00&#43;00:00"/>
-<meta property="article:modified_time" content="2018-11-11T00:00:00&#43;00:00"/>
+<meta property="og:url" content="/post/caret/" /><meta property="article:published_time" content="2018-11-21T00:00:00&#43;00:00"/>
+<meta property="article:modified_time" content="2018-11-21T00:00:00&#43;00:00"/>
 
 	
 	<link rel="dns-prefetch" href="//fonts.googleapis.com">
@@ -73,81 +72,188 @@ if (!doNotTrack) {
 <main class="main" role="main">
 	<article class="post">
 		<header class="post__header">
-			<h1 class="post__title">Khái niệm slice and dice trong khoa học dữ liệu</h1>
+			<h1 class="post__title">Caret - giao diện phổ quát cho phép truy cập các machine learning algorithms trên R</h1>
 			<div class="post__meta meta">
 <div class="meta__item-datetime meta__item">
 	<svg class="meta__icon icon icon-time" width="16" height="14" viewBox="0 0 16 16"><path d="m8-.0000003c-4.4 0-8 3.6-8 8 0 4.4000003 3.6 8.0000003 8 8.0000003 4.4 0 8-3.6 8-8.0000003 0-4.4-3.6-8-8-8zm0 14.4000003c-3.52 0-6.4-2.88-6.4-6.4000003 0-3.52 2.88-6.4 6.4-6.4 3.52 0 6.4 2.88 6.4 6.4 0 3.5200003-2.88 6.4000003-6.4 6.4000003zm.4-10.4000003h-1.2v4.8l4.16 2.5600003.64-1.04-3.6-2.1600003z"/></svg>
-	<time class="meta__text" datetime="2018-11-11T00:00:00">November 11, 2018</time>
+	<time class="meta__text" datetime="2018-11-21T00:00:00">November 21, 2018</time>
 </div>
 
 <div class="meta__item-categories meta__item">
 	<svg class="meta__icon icon icon-category" width="16" height="16" viewBox="0 0 16 16"><path d="m7 2l1 2h8v11h-16v-13z"/></svg>
-	<span class="meta__text"><a class="meta__link" href="/categories/data-science" rel="category">data science</a></span>
+	<span class="meta__text"><a class="meta__link" href="/categories/machine-learning" rel="category">machine learning</a></span>
 </div>
 </div>
 		</header>
 		<figure class="post__thumbnail">
-			<img src="/img/11.png" alt="Khái niệm slice and dice trong khoa học dữ liệu">
+			<img src="/img/caret1.jpg" alt="Caret - giao diện phổ quát cho phép truy cập các machine learning algorithms trên R">
 		</figure>
 <div class="post__toc toc">
 	<div class="toc__title">Page content</div>
 	<div class="toc__menu">
-		<nav id="TableOfContents">
-<ul>
-<li>
-<ul>
-<li><a href="#slice-că-t-la-t">Slice (cắt lát)</a></li>
-<li><a href="#dice-ru-t-ngă-n">Dice (rút ngắn)</a></li>
-</ul></li>
-</ul>
-</nav>
+		
 	</div>
 </div>
 <div class="content post__content clearfix">
-			
+			<p>Sử dụng các machine learning (hay statistical learning) algorithms ngày
+càng phổ biến trong nhiều lĩnh vực khác nhau - từ trong nghiên cứu cho
+đến các hoạt động kinh doanh. Ngôn ngữ R khác biệt bởi số lượng rất lớn
+các packages chuyên dụng khác nhau cho phép xây dựng các mô hình dự báo.
+Tuy nhiên đây cũng chính là khuyết điểm, khi có quá nhiều các packages
+triển khai các algorithms khác nhau dưới dạng các functions sẽ làm cho
+các nhà phân tích khó khăn trong việc nhớ những đặc trưng sử dụng và cú
+pháp của từng function. Ngoài ra các functions được sử dụng để xây dựng
+các mô hình dự báo thường “rải rác” từ các packages khác nhau, điều này
+đòi hỏi ta cần có nhiều thời gian để tìm kiếm và nắm vững cách sử dụng
+của từng function.</p>
 
-<p>Slice có nghĩa là cắt lát, dice có nghĩa là rút ngắn. Vì vậy slice and
-dice là quá trình phân chia một khối dữ liệu thành các phần nhỏ hơn hoặc
-xem xét (nghiên cứu ) chúng tù những quan điểm, khía cạnh khác nhau để
-có thể hiểu nó rõ hơn.</p>
+<p>Để giải quyết vấn đề này Max Kuhn đã xây dựng một giao diện phổ quát cho
+phép truy cập và sử dụng các machine learning algorithms cơ bản được
+triển khai trên ngôn ngữ R. Kết quả chính là package
+<a href="https://cran.r-project.org/web/packages/caret/caret.pdf">caret</a> (viết
+tắt từ Classification and Regression Training), được công bố đầu tiên
+vào năm 2008 tại tạp chí phần mềm thống kê (<a href="https://www.jstatsoft.org/article/view/v028i05">Journal of Statistical
+Software</a>)</p>
 
-<p>Ví dụ chúng ta có dữ liệu nhiều chiều (cube) (nếu dữ liệu có số chiều
-lớn hơn 3 thì nó được gọi là hypercube):</p>
+<p><strong>Những đặc trưng cơ bản của package <code>caret</code>:</strong></p>
 
-<p><img src="/img/1.PNG" alt="" /></p>
+<ul>
+<li><p>sử dụng cú pháp lệnh chung (phổ quát) không phụ thuộc vào cú pháp
+của functions gốc (functions triển khai các machine learning
+algorithms)</p></li>
 
-<p>Dũ liệu nhiều chiều có thể hiều đơn giản là là liệu mà được nhóm lại
-theo các tiêu chí khác nhau. Ví dụ như dữ liệu của kết quả học tập của
-sinh viên của một trường đại học theo môn học, thời gian, khóa học,…</p>
+<li><p>Tự động tìm kiếm những giá trị tối ưu cho các hyperparameters của mô
+hình (“tuning parameters”)</p></li>
 
-<h2 id="slice-că-t-la-t">Slice (cắt lát)</h2>
+<li><p>có khả năng tổ chức tính toán song song để tăng đáng kể tốc độ quá
+trình huấn luyện mô hình</p></li>
+</ul>
 
-<p>Slice chỉ việc cố định một giá trị một chiều dữ liệu trong khối trên và
-cắt khối dữ liệu chỉ liên quan đến giá trị đó thôi (tức là ta nhìn theo
-từng lớp một). Ví dụ trong danh mục của một khối dữ liệu từ năm 2004 đến
-năm 2006 ta chỉ xem xét năm 2004:</p>
+<p><strong>Caret gồm các tools cho phép:</strong></p>
 
-<p><img src="/img/2.PNG" alt="" /></p>
+<ul>
+<li><p>data splitting</p></li>
 
-<h2 id="dice-ru-t-ngă-n">Dice (rút ngắn)</h2>
+<li><p>pre-processing</p></li>
 
-<p>Dice chỉ việc lấy một khối dữ liệu bằng cách chọn một vài dữ liệu trong
-một chiều (hình dung là nhiều slice một lúc)</p>
+<li><p>feature selection</p></li>
 
-<p><img src="/img/3.PNG" alt="" /></p>
+<li><p>model tuning using resampling</p></li>
 
-<p>Cụm từ slice and dice có nguồn gốc từ nấu ăn và mô tả hai loại kỹ năng
-của mọi đầu bếp. Slice có nghĩa là cắt và dice có nghĩa là cát thành
-những phần rất nhỏ có cùng đặc tính , và hai hành động này thường được
-thực hiện liên tục và nối tiếp nhau. Ví dụ một đầu bếp đầu tiên sẽ cắt
-củ hành thành những lát mỏng (slice) và sau đó từ những lát mỏng này sẽ
-cắt thành những hạt nhỏ (dice). Trong phân tích dữ liệu cụm từ này
-thường ngụ ý chỉ sự rút gọn (reduction) có hệ thống dữ liệu thành những
-phần nhỏ hoặc thể hiện chúng dưới dạng làm sao có thể cho nhiều thông
-tin hơn.</p>
+<li><p>variable importance estimation</p></li>
+</ul>
+
+<p><strong>Dưới đây là một số functions cơ bản có trong package <code>caret</code> đảm bảo một chu trình xây dựng các
+predictive models hoàn chỉnh:</strong></p>
+
+<ul>
+<li><p><code>featurePlot()</code>: Thực hiện phân tích thăm dò dữ liệu dưới dạng biểu đồ</p></li>
+
+<li><p><code>createDataPartion</code>(): Phân chia dữ liệu thành training set và test set</p></li>
+
+<li><p><code>nearZeroVar()</code>: Xác định các predictors (biến độc lập trong dự báo) mà phương sai của chúng xấp xỉ bằng 0 (có thể loại bỏ các biến này, vì nó không mạng lại rất ít thậm chí là không thông tin có ích)</p></li>
+
+<li><p><code>findCorrelation()</code>: Xác định các predictors tương quan cao với các predictors khác. Rất nhiều các mô hình thống kê rất nhạy cảm với những biến này và thường cho kết quả kém, do đó những predictors có tương quan cao với nhau cũng cần loại bỏ khỏi dữ liệu.</p></li>
+
+<li><p><code>preProcess()</code>: Cho phép thực hện các biến đổi dữ liệu trước khi đưa vào huấn luyện mô hình</p></li>
+
+<li><p><code>train()</code>: Một trong những công cụ chính trong package <strong>caret</strong>. Nó được sử dụng để:</p>
+
+<ol>
+<li><p>Đánh giá, sừ dụng resampling, ảnh hưởng của model tuning parameters
+tới hiệu suất</p></li>
+
+<li><p>Chọn mô hình <em>optimal</em> dựa vào các parameters</p></li>
+
+<li><p>Đánh giá hiệu suất của mô hình trên tập training set</p></li>
+</ol></li>
+</ul>
+
+<p><strong>Quá trình tìm kiếm các giá trị tối ưu cho các parameters sử dụng
+function <em>train()</em> được thể hiện dưới dạng tổng quát trong sơ đồ dưới
+đây:</strong></p>
+
+<p><img src="/img/caret.png" alt="" /></p>
+
+<p>Trước khi sử dụng <strong>train()</strong> để huấn luyện mô hình ta cần phải xác định
+algorithm thích hợp và tập hợp các điều kiện cho qua trình tối ưu bằng
+các sử dụng function <strong>trainControl()</strong></p>
+
+<pre><code>trainControl(method = &quot;boot&quot;,
+             number = ifelse(grepl(&quot;cv&quot;, method), 10, 25),
+             p = 0.75,
+             repeats = ifelse(grepl(&quot;cv&quot;, method), 1, number),
+             search = &quot;grid&quot;, 
+             initialWindow = NULL, 
+             horizon = 1,
+             fixedWindow = TRUE, 
+             verboseIter = FALSE, 
+             returnData = TRUE,
+             returnResamp = &quot;final&quot;, 
+             savePredictions = FALSE,
+             classProbs = FALSE, 
+             summaryFunction = defaultSummary,
+             selectionFunction = &quot;best&quot;, 
+             seeds = NA,
+             preProcOptions = list(thresh = 0.95, 
+                                   ICAcomp = 3, 
+                                   k = 5),
+             sampling = NULL, 
+             index = NULL, 
+             indexOut = NULL,
+             timingSamps = 0, 
+             predictionBounds = rep(FALSE, 2),
+             adaptive = list(min = 5, 
+                             alpha = 0.05,
+                             method = &quot;gls&quot;, 
+                             complete = TRUE), 
+             trim = FALSE, 
+             allowParallel = TRUE)
+</code></pre>
+
+<p>Mô tả một số arguments quan trọng của hàm này các bạn có thể xem ở
+<a href="https://www.rdocumentation.org/packages/caret/versions/6.0-80/topics/trainControl">đây</a></p>
+
+<p>Ví dụ tạo một đối tượng ctrl:</p>
+
+<pre><code>ctrl &lt;- trainControl(method = &quot;repeatedcv&quot;, number = 10, repeats = 10)
+</code></pre>
+
+<p>Thông số cài đặt cho cross-validation trên có nghĩa là:</p>
+
+<ul>
+<li><p>method = “repeatedcv”</p></li>
+
+<li><p>number = 10 có nhĩa là quá trình cross-validation cần chia dữ liệu
+gốc thành 10 phần bằng nhau</p></li>
+
+<li><p>repeats = 10 có nhĩa là quá trình cross-validation sẽ hoàn thành sau
+10 lần</p></li>
+</ul>
+
+<p>-<code>predict.train()</code>: Cho phép thu nhận các giá trị dự báo trên cơ sở dữ liệu mới đưa vào mô hình.</p>
+
+<p>-<code>confusionMatrix()</code>: Khi làm việc với các mô hình phân loại đây là phương thức tổng quát hóa chất lượng mô hình dự báo. Kết quả được thể hiện dưới dạng matrix (confusion matrix)</p>
+
+<p>-<code>varImp()</code>: Cho phép đánh giá mức độ quan trọng của các predictors trên cơ sở các mô hình hình được xây dựng.</p>
+
+<p>Ở các post sau tôi sẽ đi sâu vào các bước xây dựng một chu trình machine learning sử dụng package <strong>caret</strong>.</p>
+
+<p><strong>Tài liệu tham khảo</strong></p>
+
+<p><a href="https://cran.r-project.org/web/packages/caret/vignettes/caret.html" class="uri"><a href="https://cran.r-project.org/web/packages/caret/vignettes/caret.html">https://cran.r-project.org/web/packages/caret/vignettes/caret.html</a></a></p>
+
+<p><a href="https://www.machinelearningplus.com/machine-learning/caret-package/" class="uri"><a href="https://www.machinelearningplus.com/machine-learning/caret-package/">https://www.machinelearningplus.com/machine-learning/caret-package/</a></a></p>
 
 		</div>
 		
+<div class="post__tags tags clearfix">
+	<svg class="icon icon-tag" width="16" height="16" viewBox="0 0 16 16"><path d="M16 9.5c0 .373-.24.74-.5 1l-5 5c-.275.26-.634.5-1 .5-.373 0-.74-.24-1-.5L1 8a2.853 2.853 0 0 1-.7-1C.113 6.55 0 5.973 0 5.6V1.4C0 1.034.134.669.401.401.67.134 1.034 0 1.4 0h4.2c.373 0 .95.113 1.4.3.45.187.732.432 1 .7l7.5 7.502c.26.274.5.632.5.998zM3.5 5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z"/></svg>
+	<ul class="tags__list">
+		<li class="tags__item"><a class="tags__link btn" href="/tags/classification/" rel="tag">classification</a></li>
+		<li class="tags__item"><a class="tags__link btn" href="/tags/regression/" rel="tag">regression</a></li>
+	</ul>
+</div>
 	</article>
 </main>
 
@@ -165,10 +271,7 @@ tin hơn.</p>
 
 <nav class="post-nav flex">
 	<div class="post-nav__item post-nav__item--prev">
-		<a class="post-nav__link" href="/post/mo-dau-ve-datascience/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Mở đầu về khoa học dữ liệu. Các khái niệm cơ bản</p></a>
-	</div>
-	<div class="post-nav__item post-nav__item--next">
-		<a class="post-nav__link" href="/post/2018-11-12-gioi-thieu-r-rmarkdown/" rel="next"><span class="post-nav__caption">Next&thinsp;»</span><p class="post-nav__post-title">Giới thiệu về R Markdown</p></a>
+		<a class="post-nav__link" href="/post/toan-tu-pipes-trong-r/" rel="prev"><span class="post-nav__caption">«&thinsp;Previous</span><p class="post-nav__post-title">Tổng hợp các toán tử pipes trong R</p></a>
 	</div>
 </nav>
 
