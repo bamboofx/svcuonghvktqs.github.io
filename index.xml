@@ -34,6 +34,15 @@ Học vấn của tôi:
     </item>
     
     <item>
+      <title>Sử dụng kết hợp R và Python trong dự án phân tích dữ liệu</title>
+      <link>/post/r-python/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-python/</guid>
+      <description>Một câu hỏi thường hay đặt ra bởi nhiều nhà khoa học dữ liệu, đặc biệt là những người mới trong lĩnh vực này đó là: Python hay R tốt hơn cho khoa học dữ liệu? Thực ra còn nhiều ngôn ngữ khác cho khoa học dữ liệu như là: Java, C, Scala, Matlab, Julia,…nhưng Python và R đang dẫn đầu trong phần lớn thế giới khoa học dữ liệu.</description>
+    </item>
+    
+    <item>
       <title>Caret - giao diện phổ quát cho phép truy cập các machine learning algorithms trên R</title>
       <link>/post/caret/</link>
       <pubDate>Wed, 21 Nov 2018 00:00:00 +0000</pubDate>
@@ -168,13 +177,12 @@ In particular, we focus on the following two interrelated tasks:
     </item>
     
     <item>
-      <title>Tổng hợp các tutorial về Data Science:</title>
+      <title>Tổng hợp các tutorials về Data Science:</title>
       <link>/tutorial/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/</guid>
-      <description>Page này hiện tại vẫn chưa được cập nhật (vì vậy toàn bộ đường dẫn phía dưới đều dẫn đến project đang thực hiện cảu tôi)
-1. R Data-Science    Description Notebook Source Code     1. R and RStudio installation Notebook (HTML) R Markdown (Rmd)   2. Data Wrangling Notebook (HTML) R Markdown (Rmd)   3. Data Visualization Notebook (HTML) R Markdown (Rmd)   4.</description>
+      <description>1. R Data-Science    Description Notebook     1 Data Wrangling Notebook (HTML)   2 Machine Learning    2.1 Ensample learning Notebook (HTML)   R+Python Notebook (HTML)    2. Math - -</description>
     </item>
     
   </channel>

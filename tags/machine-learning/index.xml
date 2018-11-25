@@ -6,10 +6,19 @@
     <description>Recent content in Machine Learning on Khoa học dữ liệu với R</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 13 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 25 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Sử dụng kết hợp R và Python trong dự án phân tích dữ liệu</title>
+      <link>/post/r-python/</link>
+      <pubDate>Sun, 25 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/r-python/</guid>
+      <description>Một câu hỏi thường hay đặt ra bởi nhiều nhà khoa học dữ liệu, đặc biệt là những người mới trong lĩnh vực này đó là: Python hay R tốt hơn cho khoa học dữ liệu? Thực ra còn nhiều ngôn ngữ khác cho khoa học dữ liệu như là: Java, C, Scala, Matlab, Julia,…nhưng Python và R đang dẫn đầu trong phần lớn thế giới khoa học dữ liệu.</description>
+    </item>
     
     <item>
       <title>Giới thiệu một số Machine Learning Datasets trên R</title>
