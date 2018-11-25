@@ -182,7 +182,7 @@ In particular, we focus on the following two interrelated tasks:
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tutorial/</guid>
-      <description>Tổng hợp kiến thức về khoa học dữ liệu với R: Các chủ để dưới đây tôi sẽ cập nhật theo thời gian
+      <description>Các chủ để dưới đây tôi sẽ cập nhật theo thời gian
 Module 1. Làm quen với R và Rstudio.  Giao diện RStudio
  Những đặc trưng của ngôn ngữ R
  Các kiểu dữ liệu trên R
@@ -191,7 +191,8 @@ Module 1. Làm quen với R và Rstudio.  Giao diện RStudio
  Vòng lặp
  Tính toán song song
  Điều kiện If-else
- Hàm họ apply</description>
+ Hàm họ apply
+  Module 2. Data Wrangling  Thư viện tibble</description>
     </item>
     
   </channel>
