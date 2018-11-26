@@ -104,14 +104,14 @@
   </url>
   
   <url>
-    <loc>/tags/data-science/</loc>
-    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
+    <loc>/categories/data-science/</loc>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/data-science/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+    <loc>/tags/data-science/</loc>
+    <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -158,14 +158,14 @@
   </url>
   
   <url>
-    <loc>/tags/machine-learning/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+    <loc>/categories/machine-learning/</loc>
+    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/machine-learning/</loc>
-    <lastmod>2018-11-21T00:00:00+00:00</lastmod>
+    <loc>/tags/machine-learning/</loc>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -194,13 +194,13 @@
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
