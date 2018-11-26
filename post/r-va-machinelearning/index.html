@@ -251,7 +251,7 @@ bạn gõ:</p>
     <h4>THEO DÕI BÀI VIẾT</h4>
     <p>Hãy nhập mail của bạn để nhận được thông báo về những bài viết mới từ blog</p>
     <form id="subscribe" onsubmit="window.open( 'http://feedburner.google.com/fb/a/mailverify?uri=KhoaHocDLiuViR', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true" target="popupwindow" method="post" action="http://feedburner.google.com/fb/a/mailverify">
-    <input id="subbox" type="email" name="email" onblur="if ( this.value == '' ) { this.value = 'Nhập mail của bạn...' } " onfocus=" if ( this.value == 'Enter your email address...') { this.value = '' }" value="Enter your email address..." />
+    <input id="subbox" type="email" name="email" onblur="if ( this.value == '' ) { this.value = 'Nhập mail của bạn...' } " onfocus=" if ( this.value == 'Nhập mail của bạn...') { this.value = '' }" value="Nhập mail của bạn..." />
     <input type="hidden" value="KhoaHocDLiuViR" name="uri"/>
     <input type="hidden" value="en_US" name="loc"/>
     <input id="subbutton" type="submit" value="Theo dõi"/>
@@ -259,6 +259,7 @@ bạn gõ:</p>
     </div>
     </div>
 </div>
+
 <div class="widget-recent widget">
 	<h4 class="widget__title">Recent Posts</h4>
 	<div class="widget__content">
