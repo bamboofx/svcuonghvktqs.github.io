@@ -7,80 +7,71 @@
   </url>
   
   <url>
-    <loc>/r/</loc>
+    <loc>/new/</loc>
   </url>
   
   <url>
-    <loc>/python/</loc>
-  </url>
-  
-  <url>
-    <loc>/python/r-python/</loc>
+    <loc>/post/r-python/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/r-python/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/r/caret/</loc>
+    <loc>/post/caret/</loc>
     <lastmod>2018-11-21T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/toan-tu-pipes-trong-r/</loc>
+    <loc>/post/toan-tu-pipes-trong-r/</loc>
     <lastmod>2018-11-17T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/quan-ly-du-an-voi-rstudio/</loc>
+    <loc>/post/quan-ly-du-an-voi-rstudio/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/ml-r/</loc>
+    <loc>/post/ml-r/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/he-sinh-thai-tidyverse/</loc>
+    <loc>/post/he-sinh-thai-tidyverse/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/load-data/</loc>
+    <loc>/post/load-data/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/r-va-machinelearning/</loc>
+    <loc>/post/r-va-machinelearning/</loc>
     <lastmod>2018-11-13T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/2018-11-12-gioi-thieu-r-rmarkdown/</loc>
+    <loc>/post/2018-11-12-gioi-thieu-r-rmarkdown/</loc>
     <lastmod>2018-11-12T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/slice-dice/</loc>
+    <loc>/post/slice-dice/</loc>
     <lastmod>2018-11-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/mo-dau-ve-datascience/</loc>
+    <loc>/post/mo-dau-ve-datascience/</loc>
     <lastmod>2018-11-10T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/basic-elements/</loc>
+    <loc>/post/basic-elements/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/r/example/</loc>
+    <loc>/post/example/</loc>
     <lastmod>2014-04-02T00:00:00+00:00</lastmod>
   </url>
   
@@ -184,6 +175,12 @@
   </url>
   
   <url>
+    <loc>/post/</loc>
+    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/project-management/</loc>
     <lastmod>2018-11-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
@@ -191,12 +188,6 @@
   
   <url>
     <loc>/tags/python/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/python/</loc>
     <lastmod>2018-11-25T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
@@ -226,19 +217,21 @@
   </url>
   
   <url>
-    <loc>/r/</loc>
-    <lastmod>2018-11-25T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/tags/</loc>
     <lastmod>2018-04-16T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/data-science/</loc>
+    <loc>/python/</loc>
+  </url>
+  
+  <url>
+    <loc>/r/</loc>
+  </url>
+  
+  <url>
+    <loc>/statistcics/</loc>
   </url>
   
 </urlset>
