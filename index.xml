@@ -178,19 +178,19 @@ In particular, we focus on the following two interrelated tasks:
     
     <item>
       <title>Tổng hợp các tutorials về Python</title>
-      <link>/python/</link>
+      <link>/python-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/python/</guid>
+      <guid>/python-tutorials/</guid>
       <description>Các chủ để dưới đây tôi sẽ cập nhật theo thời</description>
     </item>
     
     <item>
       <title>Tổng hợp các tutorials về R</title>
-      <link>/r/</link>
+      <link>/r-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/r/</guid>
+      <guid>/r-tutorials/</guid>
       <description>Các chủ để dưới đây tôi sẽ cập nhật theo thời
 Module 1. Làm quen với R và Rstudio.  Giao diện RStudio
  Những đặc trưng của ngôn ngữ R
@@ -207,10 +207,10 @@ Module 1. Làm quen với R và Rstudio.  Giao diện RStudio
     
     <item>
       <title>Tổng hợp các tutorials về statistics</title>
-      <link>/statistcics/</link>
+      <link>/statistcics-tutorials/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/statistcics/</guid>
+      <guid>/statistcics-tutorials/</guid>
       <description>Các chủ để dưới đây tôi sẽ cập nhật theo thời</description>
     </item>
     
